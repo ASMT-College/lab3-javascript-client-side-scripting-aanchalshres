@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOCK</title>
+</head>
+<body>
+    CLOCK: <span id="clock"></span>
+    <script>
+    function updateDate(){
+        var myDate = new Date();
+        var hour = myDate.getHours();
+        var minutes = myDate.getMinutes();
+        var second = myDate.getSeconds();
+        document.getElementById('clock').innerHTML = hour+':'+minutes+':'+second ; 
+        setTimeout(updateDate, 1000);
+        }
+    updateDate();
+    </script>
+</body>
+</html>
