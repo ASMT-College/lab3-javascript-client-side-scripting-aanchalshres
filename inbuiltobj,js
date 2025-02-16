@@ -1,0 +1,69 @@
+//Ways to Define an Array:
+// Using Array Literal
+let arr1 = [10, 20, 30, 40];
+
+// Using new Array() constructor
+let arr2 = new Array(10, 20, 30, 40);
+
+// Empty array with predefined length
+let arr3 = new Array(5); // Creates an empty array of size 5
+
+//Common Methods and Properties of Array Object
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Properties
+console.log(fruits.length); // 3 (Returns the number of elements in the array)
+
+// Methods
+fruits.push("Orange");      // Adds "Orange" at the end
+fruits.pop();               // Removes the last element ("Orange")
+fruits.shift();             // Removes the first element ("Apple")
+fruits.unshift("Grapes");   // Adds "Grapes" at the beginning
+console.log(fruits.indexOf("Mango")); // Returns the index of "Mango" (1)
+console.log(fruits.includes("Banana")); // true (Checks if "Banana" is in the array)
+
+let newArr = fruits.join(" - "); // Converts array to string with "-" separator
+console.log(newArr); // "Grapes - Banana - Mango"
+
+fruits.reverse(); // Reverses the array elements
+console.log(fruits);
+
+//String Object
+// Using String Literal
+let str1 = "Hello, JavaScript!";
+
+// Using new String() Constructor
+let str2 = new String("Hello, World!");
+
+// Common Methods and Properties of String Object
+let text = "Hello, World!";
+
+// Properties
+console.log(text.length); // 13 (Returns the length of the string)
+
+// Methods
+console.log(text.toUpperCase()); // "HELLO, WORLD!"
+console.log(text.toLowerCase()); // "hello, world!"
+console.log(text.charAt(1)); // "e" (Returns character at index 1)
+console.log(text.indexOf("World")); // 7 (Returns index of "World")
+console.log(text.includes("Hello")); // true (Checks if "Hello" exists in the string)
+console.log(text.substring(0, 5)); // "Hello" (Extracts substring)
+console.log(text.replace("World", "JavaScript")); // "Hello, JavaScript!"
+console.log(text.split(", ")); // ["Hello", "World!"] (Splits the string into an array)
+
+//Math Object
+// Properties
+console.log(Math.PI); // 3.141592653589793
+console.log(Math.E);  // 2.718 (Euler's Number)
+
+// Methods
+console.log(Math.abs(-10));  // 10 (Returns absolute value)
+console.log(Math.round(4.7)); // 5 (Rounds to the nearest integer)
+console.log(Math.ceil(4.3));  // 5 (Rounds up)
+console.log(Math.floor(4.9)); // 4 (Rounds down)
+console.log(Math.sqrt(25));   // 5 (Square root)
+console.log(Math.pow(2, 3));  // 8 (2 raised to the power 3)
+console.log(Math.min(10, 5, 20)); // 5 (Finds the smallest number)
+console.log(Math.max(10, 5, 20)); // 20 (Finds the largest number)
+console.log(Math.random()); // Generates a random number between 0 and 1
+console.log(Math.trunc(4.9)); // 4 (Removes decimal part)
