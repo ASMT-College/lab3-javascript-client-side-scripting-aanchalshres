@@ -21,7 +21,7 @@
         }
 
         .navbar {
-            background-color: #d6eaff;
+            background-color: #003087; /* Secondary color: Blue */
             padding: 10px 20px;
             display: flex;
             justify-content: space-between;
@@ -39,7 +39,7 @@
         }
 
         .navbar a {
-            color: #333;
+            color: #FFFFFF; /* White text for contrast */
             text-decoration: none;
             margin: 0 15px;
             font-size: 16px;
@@ -47,7 +47,7 @@
         }
 
         .navbar a:hover {
-            color: #007bff;
+            color: #DC143C; /* Primary color: Red on hover */
         }
     </style>
 </head>

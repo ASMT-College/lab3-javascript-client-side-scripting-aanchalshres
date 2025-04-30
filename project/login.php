@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         max-width: 400px;
         margin: 40px auto;
         padding: 20px;
-        background-color: #fff;
+        background-color: #FFFFFF; /* White background for the form */
         border-radius: 8px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         box-sizing: border-box;
@@ -90,15 +90,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     input[type="email"]:focus, input[type="password"]:focus {
-        border-color: #007bff;
+        border-color: #228B22; /* Accent color: Green */
         outline: none;
-        box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+        box-shadow: 0 0 5px rgba(34, 139, 34, 0.3);
     }
 
     input[type="submit"] {
         padding: 10px;
-        background-color: #4CAF50;
-        color: white;
+        background-color: #DC143C; /* Primary color: Red */
+        color: #FFFFFF; /* White text */
         border: none;
         border-radius: 4px;
         cursor: pointer;
@@ -107,11 +107,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     input[type="submit"]:hover {
-        background-color: #45a049;
+        background-color: #B22222; /* Darker red on hover */
     }
 
     .error {
-        color: #d32f2f;
+        color: #DC143C; /* Primary color: Red for errors */
         margin-bottom: 15px;
         font-size: 14px;
         text-align: center;

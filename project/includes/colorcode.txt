@@ -1,0 +1,14 @@
+Red: #DC143C (Crimson)
+Blue: #003087 (Dark Blue)
+Green: #228B22 (Forest Green)
+White: #FFFFFF
+Black: #000000
+
+Primary Color: Red (#DC143C) – For buttons, links, and accents.
+Secondary Color: Blue (#003087) – For backgrounds (e.g., navbar) and secondary elements.
+Accent Color: Green (#228B22) – For form inputs and hover effects.
+Neutral Colors:
+White (#FFFFFF) – Backgrounds, form containers, text.
+Black (#000000) – Text and icons.
+Light Gray (#F5F5F5) – Page background.
+
