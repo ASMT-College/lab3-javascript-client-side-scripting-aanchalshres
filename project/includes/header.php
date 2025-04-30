@@ -35,11 +35,15 @@
         }
 
         .navbar img {
-            height: 40px;
+            height: 50px; /* Adjust size as needed */
+            width: 50px; /* Ensure width matches height for a perfect circle */
+            border-radius: 50%; /* Makes the image round */
+            object-fit: cover; /* Ensures the image scales properly within the circle */
+            border: 2px solid #FFFFFF; /* Optional: White border for contrast */
         }
 
         .navbar a {
-            color: #FFFFFF; /* White text for contrast */
+            color: #FFFFFF;
             text-decoration: none;
             margin: 0 15px;
             font-size: 16px;
@@ -54,7 +58,7 @@
 <body>
     <div class="navbar">
         <div>
-            <img src="logo.jpg" alt="Logo">
+            <img src="logo.jpg" alt="Travellers Diary Nepal Logo">
         </div>
         <div>
             <a href="index.php">HOME</a>
