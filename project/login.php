@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <style>
     .content {
         max-width: 400px;
-        margin: 40px auto;
+        margin: 0 auto; /* Center horizontally */
         padding: 20px;
         background-color: #FFFFFF; /* White background for the form */
         border-radius: 8px;
@@ -72,6 +72,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        position: absolute;
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for centering */
     }
 
     form {
@@ -115,17 +119,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         margin-bottom: 15px;
         font-size: 14px;
         text-align: center;
-    }
-
-    @media (max-height: 600px) {
-        body {
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
-        .content {
-            margin: 20px auto;
-            padding: 15px;
-        }
     }
 </style>
 
